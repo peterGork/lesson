@@ -6,11 +6,11 @@
 # # # print(num1 // num2)
 # # # print(num1 % num2)
 # #
-# # number = int(input("Enter 4-digit number:"))
-# # n1 = number // 1000
-# # n2 = number // 100 % 10
-# # n3 = number % 100 // 10
-# # n4 = number % 10
+# number = int(input("Enter 4-digit number:"))
+# n1 = number // 1000
+# n2 = number // 100 % 10
+# n3 = number % 100 // 10
+# n4 = number % 10
 # #
 # # result = n1 + n2 + n3 + n4
 # # print(f"n1: {n1} n2: {n2} n3: {n3} n4: {n4}")
@@ -27,5 +27,22 @@
 #
 # print("hello", "hello","hello", sep="v,", end=" ")
 # print("world")
+# n1 = 10
+# n2 = 20
 #
-# #
+# n1, n2 = 10, 20
+# print(n1 > n2)
+# print(n1 >= n2)
+# print(n1 < n2)
+# print(n1 <= n2)
+# print(n1 == n2)
+# print(n1 != n2)
+#
+# print(1 == 1 and 3 == 3)
+# print(1 == 1 or 2 == 3)
+#
+# is_valid = False
+# print(is_valid)
+# print(not is_valid)
+#
+# print("Hello" in "hello world")
