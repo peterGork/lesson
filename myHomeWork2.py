@@ -46,3 +46,11 @@
 # print(not is_valid)
 #
 # print("Hello" in "hello world")
+hours = int(input("enter hours"))
+
+if 12 <= hours <= 23:
+    print("PM")
+elif 0 <= hours < 12:
+    print("AM")
+else:
+    print("incorrect hours!")
