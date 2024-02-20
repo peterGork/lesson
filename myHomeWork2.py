@@ -45,12 +45,20 @@
 # print(is_valid)
 # print(not is_valid)
 #
-# print("Hello" in "hello world")
-hours = int(input("enter hours"))
-
-if 12 <= hours <= 23:
-    print("PM")
-elif 0 <= hours < 12:
-    print("AM")
+# # print("Hello" in "hello world")
+# hours = int(input("enter hours"))
+#
+# if 12 <= hours <= 23:
+#     print("PM")
+# elif 0 <= hours < 12:
+#     print("AM")
+# else:
+#     print("incorrect hours!")
+film_rating = int(input("Enter the film rating"))
+if film_rating > 0 and film_rating <= 5:
+    if film_rating == 4 or film_rating == 5:
+        print("OK")
+    else: print("not OK")
 else:
-    print("incorrect hours!")
+    print("incorrect rating")
+print("hi")
